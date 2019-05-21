@@ -1,4 +1,4 @@
-package com.jianlv;
+package com.jianlv.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
