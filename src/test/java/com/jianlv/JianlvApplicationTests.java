@@ -11,6 +11,7 @@ public class JianlvApplicationTests {
 
     @Test
     public void contextLoads() {
+        System.out.println('ceshi');
     }
 
 }
