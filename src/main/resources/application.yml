@@ -1,1 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:mysql://47.101.137.124:3306/jianlv
+    username: root
+    password: N&lfTkK6fNOnrV%O
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+    # 使用德鲁伊数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  type-aliases-package: com.jianlv.domain
+  mapper-locations: classpath:mapper/*.xml
 
